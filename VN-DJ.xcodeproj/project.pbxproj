@@ -7,218 +7,237 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D8D521207A142119FDB11C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B21FD175DC4085A4F290A9 /* ContentView.swift */; };
-		02C2DEB521DF4B3087D75E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B21FD175DC4085A4F290A9 /* ContentView.swift */; };
-		D9C2B149701C43F486EE02A7 /* VNDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91D7252E524CB080AF98FE /* VNDJApp.swift */; };
-		9C9056015F6D4DF2940080DF /* VNDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91D7252E524CB080AF98FE /* VNDJApp.swift */; };
-		497315A6008745FD89030150 /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */; };
-		70A4F998CA1949F28A39B8BD /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */; };
-		6229BAD60A944995A0E72691 /* DJAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */; };
-		04A2312ECAAF448C9E895028 /* DJAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */; };
-		2954837939A944F88F5D0645 /* BeatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */; };
-		E4EE97BACC534031952B9BC8 /* BeatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */; };
-		08823A092302472A91CC7950 /* CuePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */; };
-		48D43C92D8F543448F02EA56 /* CuePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */; };
-		C3D89EDFEF4640B5BF9CBCC6 /* DeckState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934A505520E45A8903FB505 /* DeckState.swift */; };
-		9CF790999AEE409F8CBE6729 /* DeckState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934A505520E45A8903FB505 /* DeckState.swift */; };
-		3E6700BC333B4DF089DCF469 /* MixerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A710A9FA041D4B8021A21 /* MixerState.swift */; };
-		D275EA72C6BD432AAD61F898 /* MixerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A710A9FA041D4B8021A21 /* MixerState.swift */; };
-		6CCFD10985B541E09112530C /* MusicalKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */; };
-		1BCA23129B0C48C391A4397A /* MusicalKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */; };
-		46E87D29E5D94E06815D9E76 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1568C877A04115AD2195DF /* Track.swift */; };
-		8783E9593A6C4E2BBC156DD1 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1568C877A04115AD2195DF /* Track.swift */; };
-		3C0FB81F262442A88EFD55E3 /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF427EE399455896F4275A /* SpotifyService.swift */; };
-		96F0C629CA114B939961F72A /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF427EE399455896F4275A /* SpotifyService.swift */; };
-		1918FC6944FE4A12B2F2DDD6 /* TrackAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */; };
-		D6B66F33E97744439716B094 /* TrackAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */; };
-		E7DF2FA16FDA41E9BD810D31 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BA79811504BA6B5508914 /* Constants.swift */; };
-		1C0AF7966A574B7D97EF750E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BA79811504BA6B5508914 /* Constants.swift */; };
-		CEC8D97A285D4D318329D986 /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */; };
-		ABFBC365C54B4A43973E2E77 /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */; };
-		7E773143B2AE42AE9674E1B5 /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */; };
-		BCA8F8EE365C4C1492578EA2 /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */; };
-		EB346F97C5794DAE841C1ADB /* MixerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C50C1F5AA475196AE5585 /* MixerViewModel.swift */; };
-		CB7F6BFCDCE54B929AA7A236 /* MixerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C50C1F5AA475196AE5585 /* MixerViewModel.swift */; };
-		0EE73F469CF547E4A0F20223 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F428F476BE40E18D9C849F /* BrowserView.swift */; };
-		19308D3EB2404F2D81A578FB /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F428F476BE40E18D9C849F /* BrowserView.swift */; };
-		D38969801C6143FCBCFDB390 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */; };
-		5EE979439B2144C29B465EA8 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */; };
-		9792C11EA50A44F8A56DA184 /* JogWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */; };
-		A0E2E68388384A388B12E250 /* JogWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */; };
-		816FF0B5864E4CB48EB1BC1C /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B431333C1C24CC99A452009 /* WaveformView.swift */; };
-		CC4B5A65B02446D994B66205 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B431333C1C24CC99A452009 /* WaveformView.swift */; };
-		97E1B0B858DC4D7E81740243 /* FaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA0B2904F3480AA6B61044 /* FaderView.swift */; };
-		07BAD7B59A5A4FE6A7ABDCA9 /* FaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA0B2904F3480AA6B61044 /* FaderView.swift */; };
-		D898A6AF204C4258947C5AE3 /* MixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */; };
-		B014F803D9974C868E917161 /* MixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */; };
-		4E14C0DEC6DC4AC289DB8EA9 /* RotaryKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */; };
-		E910A65D3D214AABA7606A35 /* RotaryKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */; };
+		4060E0834C1D4217B7486D1B /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862746BB49411E80A39846; };
+		F0F1303355B147E99247DF52 /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45862746BB49411E80A39846; };
+		0B44428C04784B5F9315EFD1 /* TrackAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D5EC9BE842728D4C1762; };
+		1AC0C3096D084A03A1A07E81 /* TrackAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B6D5EC9BE842728D4C1762; };
+		341A901B71EC441B853C4289 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C27D204E9D4ED6B08BB66B; };
+		8062D5CECA204FDD9BEC0983 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C27D204E9D4ED6B08BB66B; };
+		D5BE756319044EBCA4F62114 /* VNDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376B57472404C269D7166E8; };
+		CD8BC4215993436098C8F990 /* VNDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376B57472404C269D7166E8; };
+		3B20291705B445B787F4646C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621ACC9F4314D6DB54135D3; };
+		8DF3C46581E940298EA9C597 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0621ACC9F4314D6DB54135D3; };
+		5B4AB086B47C4E658B65AB9F /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DBF5A735B4C7098BBE5A5; };
+		26A3DB2203CF446981D1903E /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7DBF5A735B4C7098BBE5A5; };
+		E74F8ECCD54B41D1A92AC345 /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C804491A58A417D80C5C41C; };
+		F935FEEC196E48DB92124ABC /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C804491A58A417D80C5C41C; };
+		99FF8772F5574C9095B0764D /* MixerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D6925F9584CFB9A7C2672; };
+		431A452F5BFA4EA1B27E966A /* MixerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D6925F9584CFB9A7C2672; };
+		2A157A32348C4835B33C7436 /* DJAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87273412B617429184AC9915; };
+		7A55C7DD64D44BDF9F8E3888 /* DJAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87273412B617429184AC9915; };
+		D4DD1DFCCAC5453189DE2CA8 /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5E125E46A45A485B56F75; };
+		224C8DDA0AD14E1C8CD92844 /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B5E125E46A45A485B56F75; };
+		429627B57099411C9A52C07F /* BeatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B3E109F8C471CB852AD4C; };
+		5175585D58124F2691F8625C /* BeatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B3E109F8C471CB852AD4C; };
+		B9864ED868A445A2AF9DB3E2 /* CuePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F257D357EC94DADAEBB068F; };
+		C3FEB2C76A194E0A8A7252CF /* CuePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F257D357EC94DADAEBB068F; };
+		316F47D449824D26A83B60EC /* DeckState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D891DE0A0847AA8F5C26C2; };
+		198517198B67430883088122 /* DeckState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D891DE0A0847AA8F5C26C2; };
+		A7A55A7C9F624C70982B780E /* MixerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59737FB9EF43FE94EB602A; };
+		691C6924F3224BF0952468F9 /* MixerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59737FB9EF43FE94EB602A; };
+		7A1C28B5BAD948B8BAE6EFB2 /* MusicalKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C3C080F5E8405BB7F0CE97; };
+		F6A8E8964FE24DDCB87B5A06 /* MusicalKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C3C080F5E8405BB7F0CE97; };
+		9B40BE4DF31D40CF9920D99C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB5534C8204251BBCB0687; };
+		AB1301FB40A34C81A3749C09 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDB5534C8204251BBCB0687; };
+		29A75CB16C564518992A5C78 /* FaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC2B369987414A9D579ABB; };
+		33EDB06062744B26A2582264 /* FaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DC2B369987414A9D579ABB; };
+		E7B251E9BB1149A48D8476BB /* MixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D5894B3FC41FFAF6FBAD5; };
+		CE82E66359454677AF0B184C /* MixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9D5894B3FC41FFAF6FBAD5; };
+		B1EBAEDE9D6F48A385704431 /* RotaryKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9822D748D41C4C8098053A2F; };
+		DF1AB1EAF2D948828608BB93 /* RotaryKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9822D748D41C4C8098053A2F; };
+		3953C529740B4165BDBABA0E /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E6C9ED4F7434CB7F13290; };
+		BE488DC32D9D4565BE2ADF89 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E6C9ED4F7434CB7F13290; };
+		92F3CF2399B349CAB48CC6C5 /* JogWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67DE5E639EE400C962C7C99; };
+		CCB823B5376A484AA6AFEC38 /* JogWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67DE5E639EE400C962C7C99; };
+		930658F93AEE4773AC00CD20 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6598ABECB401693F7225D; };
+		A2D1E4842ABB45C088891B43 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA6598ABECB401693F7225D; };
+		3C2D03F5143047E78D7CED44 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8339028D7947F29DDE519B; };
+		5DACAAF6419149DC90CACC61 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8339028D7947F29DDE519B; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8B21FD175DC4085A4F290A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
-		3B91D7252E524CB080AF98FE /* VNDJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNDJApp.swift"; sourceTree = "<group>"; };
-		93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveformAnalyzer.swift"; sourceTree = "<group>"; };
-		DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DJAudioEngine.swift"; sourceTree = "<group>"; };
-		3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeatGrid.swift"; sourceTree = "<group>"; };
-		21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CuePoint.swift"; sourceTree = "<group>"; };
-		8934A505520E45A8903FB505 /* DeckState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckState.swift"; sourceTree = "<group>"; };
-		D25A710A9FA041D4B8021A21 /* MixerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerState.swift"; sourceTree = "<group>"; };
-		CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MusicalKey.swift"; sourceTree = "<group>"; };
-		0F1568C877A04115AD2195DF /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Track.swift"; sourceTree = "<group>"; };
-		96CF427EE399455896F4275A /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpotifyService.swift"; sourceTree = "<group>"; };
-		0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackAnalysisService.swift"; sourceTree = "<group>"; };
-		602BA79811504BA6B5508914 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants.swift"; sourceTree = "<group>"; };
-		6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserViewModel.swift"; sourceTree = "<group>"; };
-		F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckViewModel.swift"; sourceTree = "<group>"; };
-		919C50C1F5AA475196AE5585 /* MixerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerViewModel.swift"; sourceTree = "<group>"; };
-		71F428F476BE40E18D9C849F /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserView.swift"; sourceTree = "<group>"; };
-		4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckView.swift"; sourceTree = "<group>"; };
-		233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JogWheelView.swift"; sourceTree = "<group>"; };
-		4B431333C1C24CC99A452009 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveformView.swift"; sourceTree = "<group>"; };
-		DCAA0B2904F3480AA6B61044 /* FaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FaderView.swift"; sourceTree = "<group>"; };
-		E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerView.swift"; sourceTree = "<group>"; };
-		AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RotaryKnobView.swift"; sourceTree = "<group>"; };
-		23C2BAC74D1240D283D120D2 /* VN DJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VN DJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D6DC97460F44BCEB0C570B2 /* VN DJ Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VN DJ Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45862746BB49411E80A39846 /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpotifyService.swift"; sourceTree = "<group>"; };
+		77B6D5EC9BE842728D4C1762 /* TrackAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackAnalysisService.swift"; sourceTree = "<group>"; };
+		B9C27D204E9D4ED6B08BB66B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		2376B57472404C269D7166E8 /* VNDJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNDJApp.swift"; sourceTree = "<group>"; };
+		0621ACC9F4314D6DB54135D3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants.swift"; sourceTree = "<group>"; };
+		7A7DBF5A735B4C7098BBE5A5 /* BrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserViewModel.swift"; sourceTree = "<group>"; };
+		4C804491A58A417D80C5C41C /* DeckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckViewModel.swift"; sourceTree = "<group>"; };
+		ED9D6925F9584CFB9A7C2672 /* MixerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerViewModel.swift"; sourceTree = "<group>"; };
+		87273412B617429184AC9915 /* DJAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DJAudioEngine.swift"; sourceTree = "<group>"; };
+		95B5E125E46A45A485B56F75 /* WaveformAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveformAnalyzer.swift"; sourceTree = "<group>"; };
+		086B3E109F8C471CB852AD4C /* BeatGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeatGrid.swift"; sourceTree = "<group>"; };
+		1F257D357EC94DADAEBB068F /* CuePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CuePoint.swift"; sourceTree = "<group>"; };
+		58D891DE0A0847AA8F5C26C2 /* DeckState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckState.swift"; sourceTree = "<group>"; };
+		CE59737FB9EF43FE94EB602A /* MixerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerState.swift"; sourceTree = "<group>"; };
+		A5C3C080F5E8405BB7F0CE97 /* MusicalKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MusicalKey.swift"; sourceTree = "<group>"; };
+		AEDB5534C8204251BBCB0687 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Track.swift"; sourceTree = "<group>"; };
+		C3DC2B369987414A9D579ABB /* FaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FaderView.swift"; sourceTree = "<group>"; };
+		5A9D5894B3FC41FFAF6FBAD5 /* MixerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerView.swift"; sourceTree = "<group>"; };
+		9822D748D41C4C8098053A2F /* RotaryKnobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RotaryKnobView.swift"; sourceTree = "<group>"; };
+		C63E6C9ED4F7434CB7F13290 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckView.swift"; sourceTree = "<group>"; };
+		A67DE5E639EE400C962C7C99 /* JogWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JogWheelView.swift"; sourceTree = "<group>"; };
+		6AA6598ABECB401693F7225D /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveformView.swift"; sourceTree = "<group>"; };
+		8D8339028D7947F29DDE519B /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserView.swift"; sourceTree = "<group>"; };
+		4BCED45D90334B03BC7B811E /* VN DJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VN DJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		562A639ACC484D698961A603 /* VN DJ Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VN DJ Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F64445DEE0E458696C585E7 /* Frameworks (iOS) */ = {
+		8601E94970064B6CA53C7925 = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
-			files = (
-			);
+			files = ();
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E9C1E25744741F48294A857 /* Frameworks (macOS) */ = {
+		06D75D0382A94ADBA5007D2F = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
-			files = (
-			);
+			files = ();
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E00BE0D0041B4826BA6600AF = {
+		734AA6C4ACAC45BBBF052DE4 = {
 			isa = PBXGroup;
 			children = (
-				E50666E1CF6C46BDB01ABFA7 /* VN-DJ */,
-				BF2CB5D9FC2944BAA59F974D /* Products */,
+				AADD3D859CDE46A1AA2889D1 /* VN-DJ */,
+				C98A8D9C1C4A44CDBD5C79B2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BF2CB5D9FC2944BAA59F974D /* Products */ = {
+		C98A8D9C1C4A44CDBD5C79B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23C2BAC74D1240D283D120D2 /* VN DJ.app */,
-				8D6DC97460F44BCEB0C570B2 /* VN DJ Mac.app */,
+				4BCED45D90334B03BC7B811E /* VN DJ.app */,
+				562A639ACC484D698961A603 /* VN DJ Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E50666E1CF6C46BDB01ABFA7 /* VN-DJ */ = {
+		AADD3D859CDE46A1AA2889D1 /* VN-DJ */ = {
 			isa = PBXGroup;
 			children = (
-				AEA3354AD4A543BE87C42B4B /* App */,
-				C4B50331EB68483BB6B1CFD7 /* Models */,
-				6ED43158B0C24042B08FF5E7 /* Services */,
-				D105AEF91350483C962D6376 /* Utilities */,
-				0EA2F298AEE74B528C665AB5 /* ViewModels */,
+				79F2FF2176164C31B29D9B71 /* App */,
+				A675DD65B50D4C1DA71246AF /* Audio */,
+				63C821CA686243C282A0E6B3 /* Models */,
+				9FED9736234C4C9AA0344EDD /* Services */,
+				09B0DFA8578A45EF8856228A /* Utilities */,
+				74726E60AE74495DA59CBD29 /* ViewModels */,
+				8FFC95F570CC4E1DB12ED8F1 /* Views */,
 			);
 			path = "VN-DJ";
 			sourceTree = "<group>";
 		};
-		AEA3354AD4A543BE87C42B4B /* App */ = {
+		79F2FF2176164C31B29D9B71 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				C8B21FD175DC4085A4F290A9 /* ContentView.swift */,
-				3B91D7252E524CB080AF98FE /* VNDJApp.swift */,
+				B9C27D204E9D4ED6B08BB66B /* ContentView.swift */,
+				2376B57472404C269D7166E8 /* VNDJApp.swift */,
 			);
 			path = "App";
 			sourceTree = "<group>";
 		};
-		6F5A43BFC6894D588272613E /* Analysis */ = {
+		A675DD65B50D4C1DA71246AF /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */,
+				89274A5C55F44C57A21A88B5 /* Analysis */,
+				5E087E7B7E184A4BB3D3D4B9 /* AudioEngine */,
+			);
+			path = "Audio";
+			sourceTree = "<group>";
+		};
+		89274A5C55F44C57A21A88B5 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				95B5E125E46A45A485B56F75 /* WaveformAnalyzer.swift */,
 			);
 			path = "Analysis";
 			sourceTree = "<group>";
 		};
-		CCED5F9D46974F6680CFC7EB /* AudioEngine */ = {
+		5E087E7B7E184A4BB3D3D4B9 /* AudioEngine */ = {
 			isa = PBXGroup;
 			children = (
-				DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */,
+				87273412B617429184AC9915 /* DJAudioEngine.swift */,
 			);
 			path = "AudioEngine";
 			sourceTree = "<group>";
 		};
-		C4B50331EB68483BB6B1CFD7 /* Models */ = {
+		63C821CA686243C282A0E6B3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */,
-				21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */,
-				8934A505520E45A8903FB505 /* DeckState.swift */,
-				D25A710A9FA041D4B8021A21 /* MixerState.swift */,
-				CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */,
-				0F1568C877A04115AD2195DF /* Track.swift */,
+				086B3E109F8C471CB852AD4C /* BeatGrid.swift */,
+				1F257D357EC94DADAEBB068F /* CuePoint.swift */,
+				58D891DE0A0847AA8F5C26C2 /* DeckState.swift */,
+				CE59737FB9EF43FE94EB602A /* MixerState.swift */,
+				A5C3C080F5E8405BB7F0CE97 /* MusicalKey.swift */,
+				AEDB5534C8204251BBCB0687 /* Track.swift */,
 			);
 			path = "Models";
 			sourceTree = "<group>";
 		};
-		6ED43158B0C24042B08FF5E7 /* Services */ = {
+		9FED9736234C4C9AA0344EDD /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				96CF427EE399455896F4275A /* SpotifyService.swift */,
-				0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */,
+				45862746BB49411E80A39846 /* SpotifyService.swift */,
+				77B6D5EC9BE842728D4C1762 /* TrackAnalysisService.swift */,
 			);
 			path = "Services";
 			sourceTree = "<group>";
 		};
-		D105AEF91350483C962D6376 /* Utilities */ = {
+		09B0DFA8578A45EF8856228A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				602BA79811504BA6B5508914 /* Constants.swift */,
+				0621ACC9F4314D6DB54135D3 /* Constants.swift */,
 			);
 			path = "Utilities";
 			sourceTree = "<group>";
 		};
-		0EA2F298AEE74B528C665AB5 /* ViewModels */ = {
+		74726E60AE74495DA59CBD29 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */,
-				F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */,
-				919C50C1F5AA475196AE5585 /* MixerViewModel.swift */,
+				7A7DBF5A735B4C7098BBE5A5 /* BrowserViewModel.swift */,
+				4C804491A58A417D80C5C41C /* DeckViewModel.swift */,
+				ED9D6925F9584CFB9A7C2672 /* MixerViewModel.swift */,
 			);
 			path = "ViewModels";
 			sourceTree = "<group>";
 		};
-		6124460884C542C18514E303 /* Browser */ = {
+		8FFC95F570CC4E1DB12ED8F1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				71F428F476BE40E18D9C849F /* BrowserView.swift */,
+				43C2A973F2F149A59E5ACFE7 /* Browser */,
+				A7A746C296BA485BA44947C3 /* Deck */,
+				F0D75743BED64417A11A2737 /* Mixer */,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		43C2A973F2F149A59E5ACFE7 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				8D8339028D7947F29DDE519B /* BrowserView.swift */,
 			);
 			path = "Browser";
 			sourceTree = "<group>";
 		};
-		3AA8B7EDB28C49FCBFCBD070 /* Deck */ = {
+		A7A746C296BA485BA44947C3 /* Deck */ = {
 			isa = PBXGroup;
 			children = (
-				4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */,
-				233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */,
-				4B431333C1C24CC99A452009 /* WaveformView.swift */,
+				C63E6C9ED4F7434CB7F13290 /* DeckView.swift */,
+				A67DE5E639EE400C962C7C99 /* JogWheelView.swift */,
+				6AA6598ABECB401693F7225D /* WaveformView.swift */,
 			);
 			path = "Deck";
 			sourceTree = "<group>";
 		};
-		0915A1E3DCA742F5AC2C8670 /* Mixer */ = {
+		F0D75743BED64417A11A2737 /* Mixer */ = {
 			isa = PBXGroup;
 			children = (
-				DCAA0B2904F3480AA6B61044 /* FaderView.swift */,
-				E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */,
-				AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */,
+				C3DC2B369987414A9D579ABB /* FaderView.swift */,
+				5A9D5894B3FC41FFAF6FBAD5 /* MixerView.swift */,
+				9822D748D41C4C8098053A2F /* RotaryKnobView.swift */,
 			);
 			path = "Mixer";
 			sourceTree = "<group>";
@@ -226,146 +245,137 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F614EBD9A8684E398A376159 /* VN DJ */ = {
+		5157171324454EE7B0C5A82E /* VN DJ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123838F78E9F4510A58E9C06;
+			buildConfigurationList = 16C2AC1E741B4FB6BDCDC8EF;
 			buildPhases = (
-				3E061749FB304A9486DF6DF4 /* Sources */,
-				2F64445DEE0E458696C585E7 /* Frameworks */,
-				9FF68981853A416CBD2A97F4 /* Resources */,
+				72048742093244939B9E8363 /* Sources */,
+				8601E94970064B6CA53C7925 /* Frameworks */,
+				BB7B27F7CA464DEBB6D43DA0 /* Resources */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
+			buildRules = ();
+			dependencies = ();
 			name = "VN DJ";
 			productName = "VN DJ";
-			productReference = 23C2BAC74D1240D283D120D2;
+			productReference = 4BCED45D90334B03BC7B811E;
 			productType = "com.apple.product-type.application";
 		};
-		2C6AB9945B804399B45468A6 /* VN DJ Mac */ = {
+		83E47CF5D999447AB2CEC36C /* VN DJ Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBF98DC5B1FF44CBBB553C6A;
+			buildConfigurationList = 1303651757E54F7682CA43B2;
 			buildPhases = (
-				8C68BC738E95418DB105EE08 /* Sources */,
-				6E9C1E25744741F48294A857 /* Frameworks */,
-				0D69EED7E90A4FBAB442D4D1 /* Resources */,
+				36A4710C4B314C9B9C707642 /* Sources */,
+				06D75D0382A94ADBA5007D2F /* Frameworks */,
+				2B1F833C4EDD4606A9716077 /* Resources */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-			);
+			buildRules = ();
+			dependencies = ();
 			name = "VN DJ Mac";
 			productName = "VN DJ Mac";
-			productReference = 8D6DC97460F44BCEB0C570B2;
+			productReference = 562A639ACC484D698961A603;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3BD158D615D346A787002CD0 /* Project object */ = {
+		29238CFC10D449FFB68966E6 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 5255A1D1527E412298A15043;
+			buildConfigurationList = DA84FA75DA9D4955BCE3AE54;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = E00BE0D0041B4826BA6600AF;
-			productRefGroup = BF2CB5D9FC2944BAA59F974D;
+			knownRegions = (en, Base);
+			mainGroup = 734AA6C4ACAC45BBBF052DE4;
+			productRefGroup = C98A8D9C1C4A44CDBD5C79B2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F614EBD9A8684E398A376159 /* VN DJ */,
-				2C6AB9945B804399B45468A6 /* VN DJ Mac */,
+				5157171324454EE7B0C5A82E /* VN DJ */,
+				83E47CF5D999447AB2CEC36C /* VN DJ Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9FF68981853A416CBD2A97F4 /* Resources (iOS) */ = {
+		BB7B27F7CA464DEBB6D43DA0 = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (
-			);
+			files = ();
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0D69EED7E90A4FBAB442D4D1 /* Resources (macOS) */ = {
+		2B1F833C4EDD4606A9716077 = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
-			files = (
-			);
+			files = ();
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E061749FB304A9486DF6DF4 /* Sources (iOS) */ = {
+		72048742093244939B9E8363 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8D521207A142119FDB11C0 /* ContentView.swift */,
-				D9C2B149701C43F486EE02A7 /* VNDJApp.swift */,
-				497315A6008745FD89030150 /* WaveformAnalyzer.swift */,
-				6229BAD60A944995A0E72691 /* DJAudioEngine.swift */,
-				2954837939A944F88F5D0645 /* BeatGrid.swift */,
-				08823A092302472A91CC7950 /* CuePoint.swift */,
-				C3D89EDFEF4640B5BF9CBCC6 /* DeckState.swift */,
-				3E6700BC333B4DF089DCF469 /* MixerState.swift */,
-				6CCFD10985B541E09112530C /* MusicalKey.swift */,
-				46E87D29E5D94E06815D9E76 /* Track.swift */,
-				3C0FB81F262442A88EFD55E3 /* SpotifyService.swift */,
-				1918FC6944FE4A12B2F2DDD6 /* TrackAnalysisService.swift */,
-				E7DF2FA16FDA41E9BD810D31 /* Constants.swift */,
-				CEC8D97A285D4D318329D986 /* BrowserViewModel.swift */,
-				7E773143B2AE42AE9674E1B5 /* DeckViewModel.swift */,
-				EB346F97C5794DAE841C1ADB /* MixerViewModel.swift */,
-				0EE73F469CF547E4A0F20223 /* BrowserView.swift */,
-				D38969801C6143FCBCFDB390 /* DeckView.swift */,
-				9792C11EA50A44F8A56DA184 /* JogWheelView.swift */,
-				816FF0B5864E4CB48EB1BC1C /* WaveformView.swift */,
-				97E1B0B858DC4D7E81740243 /* FaderView.swift */,
-				D898A6AF204C4258947C5AE3 /* MixerView.swift */,
-				4E14C0DEC6DC4AC289DB8EA9 /* RotaryKnobView.swift */,
+				4060E0834C1D4217B7486D1B /* SpotifyService.swift */,
+				0B44428C04784B5F9315EFD1 /* TrackAnalysisService.swift */,
+				341A901B71EC441B853C4289 /* ContentView.swift */,
+				D5BE756319044EBCA4F62114 /* VNDJApp.swift */,
+				3B20291705B445B787F4646C /* Constants.swift */,
+				5B4AB086B47C4E658B65AB9F /* BrowserViewModel.swift */,
+				E74F8ECCD54B41D1A92AC345 /* DeckViewModel.swift */,
+				99FF8772F5574C9095B0764D /* MixerViewModel.swift */,
+				2A157A32348C4835B33C7436 /* DJAudioEngine.swift */,
+				D4DD1DFCCAC5453189DE2CA8 /* WaveformAnalyzer.swift */,
+				429627B57099411C9A52C07F /* BeatGrid.swift */,
+				B9864ED868A445A2AF9DB3E2 /* CuePoint.swift */,
+				316F47D449824D26A83B60EC /* DeckState.swift */,
+				A7A55A7C9F624C70982B780E /* MixerState.swift */,
+				7A1C28B5BAD948B8BAE6EFB2 /* MusicalKey.swift */,
+				9B40BE4DF31D40CF9920D99C /* Track.swift */,
+				29A75CB16C564518992A5C78 /* FaderView.swift */,
+				E7B251E9BB1149A48D8476BB /* MixerView.swift */,
+				B1EBAEDE9D6F48A385704431 /* RotaryKnobView.swift */,
+				3953C529740B4165BDBABA0E /* DeckView.swift */,
+				92F3CF2399B349CAB48CC6C5 /* JogWheelView.swift */,
+				930658F93AEE4773AC00CD20 /* WaveformView.swift */,
+				3C2D03F5143047E78D7CED44 /* BrowserView.swift */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C68BC738E95418DB105EE08 /* Sources (macOS) */ = {
+		36A4710C4B314C9B9C707642 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C2DEB521DF4B3087D75E60 /* ContentView.swift */,
-				9C9056015F6D4DF2940080DF /* VNDJApp.swift */,
-				70A4F998CA1949F28A39B8BD /* WaveformAnalyzer.swift */,
-				04A2312ECAAF448C9E895028 /* DJAudioEngine.swift */,
-				E4EE97BACC534031952B9BC8 /* BeatGrid.swift */,
-				48D43C92D8F543448F02EA56 /* CuePoint.swift */,
-				9CF790999AEE409F8CBE6729 /* DeckState.swift */,
-				D275EA72C6BD432AAD61F898 /* MixerState.swift */,
-				1BCA23129B0C48C391A4397A /* MusicalKey.swift */,
-				8783E9593A6C4E2BBC156DD1 /* Track.swift */,
-				96F0C629CA114B939961F72A /* SpotifyService.swift */,
-				D6B66F33E97744439716B094 /* TrackAnalysisService.swift */,
-				1C0AF7966A574B7D97EF750E /* Constants.swift */,
-				ABFBC365C54B4A43973E2E77 /* BrowserViewModel.swift */,
-				BCA8F8EE365C4C1492578EA2 /* DeckViewModel.swift */,
-				CB7F6BFCDCE54B929AA7A236 /* MixerViewModel.swift */,
-				19308D3EB2404F2D81A578FB /* BrowserView.swift */,
-				5EE979439B2144C29B465EA8 /* DeckView.swift */,
-				A0E2E68388384A388B12E250 /* JogWheelView.swift */,
-				CC4B5A65B02446D994B66205 /* WaveformView.swift */,
-				07BAD7B59A5A4FE6A7ABDCA9 /* FaderView.swift */,
-				B014F803D9974C868E917161 /* MixerView.swift */,
-				E910A65D3D214AABA7606A35 /* RotaryKnobView.swift */,
+				F0F1303355B147E99247DF52 /* SpotifyService.swift */,
+				1AC0C3096D084A03A1A07E81 /* TrackAnalysisService.swift */,
+				8062D5CECA204FDD9BEC0983 /* ContentView.swift */,
+				CD8BC4215993436098C8F990 /* VNDJApp.swift */,
+				8DF3C46581E940298EA9C597 /* Constants.swift */,
+				26A3DB2203CF446981D1903E /* BrowserViewModel.swift */,
+				F935FEEC196E48DB92124ABC /* DeckViewModel.swift */,
+				431A452F5BFA4EA1B27E966A /* MixerViewModel.swift */,
+				7A55C7DD64D44BDF9F8E3888 /* DJAudioEngine.swift */,
+				224C8DDA0AD14E1C8CD92844 /* WaveformAnalyzer.swift */,
+				5175585D58124F2691F8625C /* BeatGrid.swift */,
+				C3FEB2C76A194E0A8A7252CF /* CuePoint.swift */,
+				198517198B67430883088122 /* DeckState.swift */,
+				691C6924F3224BF0952468F9 /* MixerState.swift */,
+				F6A8E8964FE24DDCB87B5A06 /* MusicalKey.swift */,
+				AB1301FB40A34C81A3749C09 /* Track.swift */,
+				33EDB06062744B26A2582264 /* FaderView.swift */,
+				CE82E66359454677AF0B184C /* MixerView.swift */,
+				DF1AB1EAF2D948828608BB93 /* RotaryKnobView.swift */,
+				BE488DC32D9D4565BE2ADF89 /* DeckView.swift */,
+				CCB823B5376A484AA6AFEC38 /* JogWheelView.swift */,
+				A2D1E4842ABB45C088891B43 /* WaveformView.swift */,
+				5DACAAF6419149DC90CACC61 /* BrowserView.swift */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C464EB8994774E6799AAD859 /* Debug */ = {
+		17A2A9A33C2546B19C0B90FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,7 +396,7 @@
 			};
 			name = Debug;
 		};
-		72C713A20AEC40AB973130F7 /* Release */ = {
+		CF07464360B347B3B56C17B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -405,7 +415,7 @@
 			};
 			name = Release;
 		};
-		71D428028E3E4E73BB6D5A11 /* Debug */ = {
+		3363663D39A141A7A3BCFB63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -427,11 +437,11 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E16E67176CFE46EBB7142687 /* Release */ = {
+		4500F5E9EB6C4C36B09704ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -453,11 +463,11 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		CAB72F7C0F824409A57A7104 /* Debug */ = {
+		610C83F636874127B53A69A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -480,7 +490,7 @@
 			};
 			name = Debug;
 		};
-		5C053833DDF440A981BBAD18 /* Release */ = {
+		E80096CD360445D0AF0498F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -506,29 +516,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5255A1D1527E412298A15043 /* Build configuration list for PBXProject "VN-DJ" */ = {
+		DA84FA75DA9D4955BCE3AE54 /* Build configuration list for PBXProject "VN-DJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C464EB8994774E6799AAD859 /* Debug */,
-				72C713A20AEC40AB973130F7 /* Release */,
+				17A2A9A33C2546B19C0B90FB /* Debug */,
+				CF07464360B347B3B56C17B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		123838F78E9F4510A58E9C06 /* Build configuration list for PBXNativeTarget "VN DJ" */ = {
+		16C2AC1E741B4FB6BDCDC8EF /* Build configuration list for PBXNativeTarget "VN DJ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71D428028E3E4E73BB6D5A11 /* Debug */,
-				E16E67176CFE46EBB7142687 /* Release */,
+				3363663D39A141A7A3BCFB63 /* Debug */,
+				4500F5E9EB6C4C36B09704ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBF98DC5B1FF44CBBB553C6A /* Build configuration list for PBXNativeTarget "VN DJ Mac" */ = {
+		1303651757E54F7682CA43B2 /* Build configuration list for PBXNativeTarget "VN DJ Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAB72F7C0F824409A57A7104 /* Debug */,
-				5C053833DDF440A981BBAD18 /* Release */,
+				610C83F636874127B53A69A6 /* Debug */,
+				E80096CD360445D0AF0498F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -536,5 +546,5 @@
 /* End XCConfigurationList section */
 
 	};
-	rootObject = 3BD158D615D346A787002CD0 /* Project object */;
+	rootObject = 29238CFC10D449FFB68966E6;
 }
