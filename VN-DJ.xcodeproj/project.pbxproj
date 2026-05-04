@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8D521207A142119FDB11C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B21FD175DC4085A4F290A9 /* ContentView.swift */; };
+		02C2DEB521DF4B3087D75E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B21FD175DC4085A4F290A9 /* ContentView.swift */; };
+		D9C2B149701C43F486EE02A7 /* VNDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91D7252E524CB080AF98FE /* VNDJApp.swift */; };
+		9C9056015F6D4DF2940080DF /* VNDJApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91D7252E524CB080AF98FE /* VNDJApp.swift */; };
+		497315A6008745FD89030150 /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */; };
+		70A4F998CA1949F28A39B8BD /* WaveformAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */; };
+		6229BAD60A944995A0E72691 /* DJAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */; };
+		04A2312ECAAF448C9E895028 /* DJAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */; };
+		2954837939A944F88F5D0645 /* BeatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */; };
+		E4EE97BACC534031952B9BC8 /* BeatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */; };
+		08823A092302472A91CC7950 /* CuePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */; };
+		48D43C92D8F543448F02EA56 /* CuePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */; };
+		C3D89EDFEF4640B5BF9CBCC6 /* DeckState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934A505520E45A8903FB505 /* DeckState.swift */; };
+		9CF790999AEE409F8CBE6729 /* DeckState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8934A505520E45A8903FB505 /* DeckState.swift */; };
+		3E6700BC333B4DF089DCF469 /* MixerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A710A9FA041D4B8021A21 /* MixerState.swift */; };
+		D275EA72C6BD432AAD61F898 /* MixerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A710A9FA041D4B8021A21 /* MixerState.swift */; };
+		6CCFD10985B541E09112530C /* MusicalKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */; };
+		1BCA23129B0C48C391A4397A /* MusicalKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */; };
+		46E87D29E5D94E06815D9E76 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1568C877A04115AD2195DF /* Track.swift */; };
+		8783E9593A6C4E2BBC156DD1 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1568C877A04115AD2195DF /* Track.swift */; };
+		3C0FB81F262442A88EFD55E3 /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF427EE399455896F4275A /* SpotifyService.swift */; };
+		96F0C629CA114B939961F72A /* SpotifyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CF427EE399455896F4275A /* SpotifyService.swift */; };
+		1918FC6944FE4A12B2F2DDD6 /* TrackAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */; };
+		D6B66F33E97744439716B094 /* TrackAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */; };
+		E7DF2FA16FDA41E9BD810D31 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BA79811504BA6B5508914 /* Constants.swift */; };
+		1C0AF7966A574B7D97EF750E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BA79811504BA6B5508914 /* Constants.swift */; };
+		CEC8D97A285D4D318329D986 /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */; };
+		ABFBC365C54B4A43973E2E77 /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */; };
+		7E773143B2AE42AE9674E1B5 /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */; };
+		BCA8F8EE365C4C1492578EA2 /* DeckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */; };
+		EB346F97C5794DAE841C1ADB /* MixerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C50C1F5AA475196AE5585 /* MixerViewModel.swift */; };
+		CB7F6BFCDCE54B929AA7A236 /* MixerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C50C1F5AA475196AE5585 /* MixerViewModel.swift */; };
+		0EE73F469CF547E4A0F20223 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F428F476BE40E18D9C849F /* BrowserView.swift */; };
+		19308D3EB2404F2D81A578FB /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F428F476BE40E18D9C849F /* BrowserView.swift */; };
+		D38969801C6143FCBCFDB390 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */; };
+		5EE979439B2144C29B465EA8 /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */; };
+		9792C11EA50A44F8A56DA184 /* JogWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */; };
+		A0E2E68388384A388B12E250 /* JogWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */; };
+		816FF0B5864E4CB48EB1BC1C /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B431333C1C24CC99A452009 /* WaveformView.swift */; };
+		CC4B5A65B02446D994B66205 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B431333C1C24CC99A452009 /* WaveformView.swift */; };
+		97E1B0B858DC4D7E81740243 /* FaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA0B2904F3480AA6B61044 /* FaderView.swift */; };
+		07BAD7B59A5A4FE6A7ABDCA9 /* FaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA0B2904F3480AA6B61044 /* FaderView.swift */; };
+		D898A6AF204C4258947C5AE3 /* MixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */; };
+		B014F803D9974C868E917161 /* MixerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */; };
+		4E14C0DEC6DC4AC289DB8EA9 /* RotaryKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */; };
+		E910A65D3D214AABA7606A35 /* RotaryKnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C8B21FD175DC4085A4F290A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		3B91D7252E524CB080AF98FE /* VNDJApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNDJApp.swift"; sourceTree = "<group>"; };
+		93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveformAnalyzer.swift"; sourceTree = "<group>"; };
+		DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DJAudioEngine.swift"; sourceTree = "<group>"; };
+		3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BeatGrid.swift"; sourceTree = "<group>"; };
+		21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CuePoint.swift"; sourceTree = "<group>"; };
+		8934A505520E45A8903FB505 /* DeckState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckState.swift"; sourceTree = "<group>"; };
+		D25A710A9FA041D4B8021A21 /* MixerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerState.swift"; sourceTree = "<group>"; };
+		CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MusicalKey.swift"; sourceTree = "<group>"; };
+		0F1568C877A04115AD2195DF /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Track.swift"; sourceTree = "<group>"; };
+		96CF427EE399455896F4275A /* SpotifyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpotifyService.swift"; sourceTree = "<group>"; };
+		0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackAnalysisService.swift"; sourceTree = "<group>"; };
+		602BA79811504BA6B5508914 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Constants.swift"; sourceTree = "<group>"; };
+		6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserViewModel.swift"; sourceTree = "<group>"; };
+		F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckViewModel.swift"; sourceTree = "<group>"; };
+		919C50C1F5AA475196AE5585 /* MixerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerViewModel.swift"; sourceTree = "<group>"; };
+		71F428F476BE40E18D9C849F /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserView.swift"; sourceTree = "<group>"; };
+		4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeckView.swift"; sourceTree = "<group>"; };
+		233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JogWheelView.swift"; sourceTree = "<group>"; };
+		4B431333C1C24CC99A452009 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveformView.swift"; sourceTree = "<group>"; };
+		DCAA0B2904F3480AA6B61044 /* FaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FaderView.swift"; sourceTree = "<group>"; };
+		E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MixerView.swift"; sourceTree = "<group>"; };
+		AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RotaryKnobView.swift"; sourceTree = "<group>"; };
+		23C2BAC74D1240D283D120D2 /* VN DJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VN DJ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D6DC97460F44BCEB0C570B2 /* VN DJ Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VN DJ Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F64445DEE0E458696C585E7 /* Frameworks (iOS) */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9C1E25744741F48294A857 /* Frameworks (macOS) */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00BE0D0041B4826BA6600AF = {
+			isa = PBXGroup;
+			children = (
+				E50666E1CF6C46BDB01ABFA7 /* VN-DJ */,
+				BF2CB5D9FC2944BAA59F974D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2CB5D9FC2944BAA59F974D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C2BAC74D1240D283D120D2 /* VN DJ.app */,
+				8D6DC97460F44BCEB0C570B2 /* VN DJ Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E50666E1CF6C46BDB01ABFA7 /* VN-DJ */ = {
+			isa = PBXGroup;
+			children = (
+				AEA3354AD4A543BE87C42B4B /* App */,
+				C4B50331EB68483BB6B1CFD7 /* Models */,
+				6ED43158B0C24042B08FF5E7 /* Services */,
+				D105AEF91350483C962D6376 /* Utilities */,
+				0EA2F298AEE74B528C665AB5 /* ViewModels */,
+			);
+			path = "VN-DJ";
+			sourceTree = "<group>";
+		};
+		AEA3354AD4A543BE87C42B4B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C8B21FD175DC4085A4F290A9 /* ContentView.swift */,
+				3B91D7252E524CB080AF98FE /* VNDJApp.swift */,
+			);
+			path = "App";
+			sourceTree = "<group>";
+		};
+		6F5A43BFC6894D588272613E /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				93E410BA77494BDA83B4AB77 /* WaveformAnalyzer.swift */,
+			);
+			path = "Analysis";
+			sourceTree = "<group>";
+		};
+		CCED5F9D46974F6680CFC7EB /* AudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				DD65DA3D2F8947CD9457F0D5 /* DJAudioEngine.swift */,
+			);
+			path = "AudioEngine";
+			sourceTree = "<group>";
+		};
+		C4B50331EB68483BB6B1CFD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A3763CE3B70452B8A1D5ADE /* BeatGrid.swift */,
+				21C4C5712C6549FD9FFB9C1C /* CuePoint.swift */,
+				8934A505520E45A8903FB505 /* DeckState.swift */,
+				D25A710A9FA041D4B8021A21 /* MixerState.swift */,
+				CDA561C1DEA04FFDB6DEFE07 /* MusicalKey.swift */,
+				0F1568C877A04115AD2195DF /* Track.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		6ED43158B0C24042B08FF5E7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				96CF427EE399455896F4275A /* SpotifyService.swift */,
+				0D40CE5F57724F82B6128826 /* TrackAnalysisService.swift */,
+			);
+			path = "Services";
+			sourceTree = "<group>";
+		};
+		D105AEF91350483C962D6376 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				602BA79811504BA6B5508914 /* Constants.swift */,
+			);
+			path = "Utilities";
+			sourceTree = "<group>";
+		};
+		0EA2F298AEE74B528C665AB5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6B31493A76374DA38E3AF871 /* BrowserViewModel.swift */,
+				F7561A3D7C9D43F88D42EB3C /* DeckViewModel.swift */,
+				919C50C1F5AA475196AE5585 /* MixerViewModel.swift */,
+			);
+			path = "ViewModels";
+			sourceTree = "<group>";
+		};
+		6124460884C542C18514E303 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				71F428F476BE40E18D9C849F /* BrowserView.swift */,
+			);
+			path = "Browser";
+			sourceTree = "<group>";
+		};
+		3AA8B7EDB28C49FCBFCBD070 /* Deck */ = {
+			isa = PBXGroup;
+			children = (
+				4BB4E4147DB74AEF8C7ED8B5 /* DeckView.swift */,
+				233E2B33B5A34A2CA8061B5F /* JogWheelView.swift */,
+				4B431333C1C24CC99A452009 /* WaveformView.swift */,
+			);
+			path = "Deck";
+			sourceTree = "<group>";
+		};
+		0915A1E3DCA742F5AC2C8670 /* Mixer */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA0B2904F3480AA6B61044 /* FaderView.swift */,
+				E3BB63DA2F414767A2AAD4E6 /* MixerView.swift */,
+				AA5483826F5C43C2A42AE899 /* RotaryKnobView.swift */,
+			);
+			path = "Mixer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F614EBD9A8684E398A376159 /* VN DJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123838F78E9F4510A58E9C06;
+			buildPhases = (
+				3E061749FB304A9486DF6DF4 /* Sources */,
+				2F64445DEE0E458696C585E7 /* Frameworks */,
+				9FF68981853A416CBD2A97F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VN DJ";
+			productName = "VN DJ";
+			productReference = 23C2BAC74D1240D283D120D2;
+			productType = "com.apple.product-type.application";
+		};
+		2C6AB9945B804399B45468A6 /* VN DJ Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF98DC5B1FF44CBBB553C6A;
+			buildPhases = (
+				8C68BC738E95418DB105EE08 /* Sources */,
+				6E9C1E25744741F48294A857 /* Frameworks */,
+				0D69EED7E90A4FBAB442D4D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VN DJ Mac";
+			productName = "VN DJ Mac";
+			productReference = 8D6DC97460F44BCEB0C570B2;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD158D615D346A787002CD0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5255A1D1527E412298A15043;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00BE0D0041B4826BA6600AF;
+			productRefGroup = BF2CB5D9FC2944BAA59F974D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F614EBD9A8684E398A376159 /* VN DJ */,
+				2C6AB9945B804399B45468A6 /* VN DJ Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF68981853A416CBD2A97F4 /* Resources (iOS) */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D69EED7E90A4FBAB442D4D1 /* Resources (macOS) */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E061749FB304A9486DF6DF4 /* Sources (iOS) */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D521207A142119FDB11C0 /* ContentView.swift */,
+				D9C2B149701C43F486EE02A7 /* VNDJApp.swift */,
+				497315A6008745FD89030150 /* WaveformAnalyzer.swift */,
+				6229BAD60A944995A0E72691 /* DJAudioEngine.swift */,
+				2954837939A944F88F5D0645 /* BeatGrid.swift */,
+				08823A092302472A91CC7950 /* CuePoint.swift */,
+				C3D89EDFEF4640B5BF9CBCC6 /* DeckState.swift */,
+				3E6700BC333B4DF089DCF469 /* MixerState.swift */,
+				6CCFD10985B541E09112530C /* MusicalKey.swift */,
+				46E87D29E5D94E06815D9E76 /* Track.swift */,
+				3C0FB81F262442A88EFD55E3 /* SpotifyService.swift */,
+				1918FC6944FE4A12B2F2DDD6 /* TrackAnalysisService.swift */,
+				E7DF2FA16FDA41E9BD810D31 /* Constants.swift */,
+				CEC8D97A285D4D318329D986 /* BrowserViewModel.swift */,
+				7E773143B2AE42AE9674E1B5 /* DeckViewModel.swift */,
+				EB346F97C5794DAE841C1ADB /* MixerViewModel.swift */,
+				0EE73F469CF547E4A0F20223 /* BrowserView.swift */,
+				D38969801C6143FCBCFDB390 /* DeckView.swift */,
+				9792C11EA50A44F8A56DA184 /* JogWheelView.swift */,
+				816FF0B5864E4CB48EB1BC1C /* WaveformView.swift */,
+				97E1B0B858DC4D7E81740243 /* FaderView.swift */,
+				D898A6AF204C4258947C5AE3 /* MixerView.swift */,
+				4E14C0DEC6DC4AC289DB8EA9 /* RotaryKnobView.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C68BC738E95418DB105EE08 /* Sources (macOS) */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C2DEB521DF4B3087D75E60 /* ContentView.swift */,
+				9C9056015F6D4DF2940080DF /* VNDJApp.swift */,
+				70A4F998CA1949F28A39B8BD /* WaveformAnalyzer.swift */,
+				04A2312ECAAF448C9E895028 /* DJAudioEngine.swift */,
+				E4EE97BACC534031952B9BC8 /* BeatGrid.swift */,
+				48D43C92D8F543448F02EA56 /* CuePoint.swift */,
+				9CF790999AEE409F8CBE6729 /* DeckState.swift */,
+				D275EA72C6BD432AAD61F898 /* MixerState.swift */,
+				1BCA23129B0C48C391A4397A /* MusicalKey.swift */,
+				8783E9593A6C4E2BBC156DD1 /* Track.swift */,
+				96F0C629CA114B939961F72A /* SpotifyService.swift */,
+				D6B66F33E97744439716B094 /* TrackAnalysisService.swift */,
+				1C0AF7966A574B7D97EF750E /* Constants.swift */,
+				ABFBC365C54B4A43973E2E77 /* BrowserViewModel.swift */,
+				BCA8F8EE365C4C1492578EA2 /* DeckViewModel.swift */,
+				CB7F6BFCDCE54B929AA7A236 /* MixerViewModel.swift */,
+				19308D3EB2404F2D81A578FB /* BrowserView.swift */,
+				5EE979439B2144C29B465EA8 /* DeckView.swift */,
+				A0E2E68388384A388B12E250 /* JogWheelView.swift */,
+				CC4B5A65B02446D994B66205 /* WaveformView.swift */,
+				07BAD7B59A5A4FE6A7ABDCA9 /* FaderView.swift */,
+				B014F803D9974C868E917161 /* MixerView.swift */,
+				E910A65D3D214AABA7606A35 /* RotaryKnobView.swift */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C464EB8994774E6799AAD859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72C713A20AEC40AB973130F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		71D428028E3E4E73BB6D5A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VN DJ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vndj.app;
+				PRODUCT_NAME = "VN DJ";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E16E67176CFE46EBB7142687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VN DJ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vndj.app;
+				PRODUCT_NAME = "VN DJ";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CAB72F7C0F824409A57A7104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VN DJ";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vndj.mac;
+				PRODUCT_NAME = "VN DJ Mac";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C053833DDF440A981BBAD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "VN DJ";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vndj.mac;
+				PRODUCT_NAME = "VN DJ Mac";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5255A1D1527E412298A15043 /* Build configuration list for PBXProject "VN-DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C464EB8994774E6799AAD859 /* Debug */,
+				72C713A20AEC40AB973130F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123838F78E9F4510A58E9C06 /* Build configuration list for PBXNativeTarget "VN DJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D428028E3E4E73BB6D5A11 /* Debug */,
+				E16E67176CFE46EBB7142687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF98DC5B1FF44CBBB553C6A /* Build configuration list for PBXNativeTarget "VN DJ Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB72F7C0F824409A57A7104 /* Debug */,
+				5C053833DDF440A981BBAD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 3BD158D615D346A787002CD0 /* Project object */;
+}
