@@ -1,6 +1,10 @@
 import Foundation
 import SwiftUI
 
+extension Color {
+    static let magenta = Color(red: 1.0, green: 0.0, blue: 0.8)
+}
+
 enum AppConstants {
     static let appName = "VN DJ"
     static let version = "1.0.0"
